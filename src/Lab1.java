@@ -34,7 +34,7 @@ public class Lab1 {
 
     // Вспомогательный метод для проверки, является ли символ согласной буквой
     private boolean isConsonant(char ch) {
-        return "bcdfghjklmnpqrstvwxyz".indexOf(ch) != -1;
+        return "pqrstvwxyz".indexOf(ch) != -1;
     }
 
     public static void main(String[] args) {
